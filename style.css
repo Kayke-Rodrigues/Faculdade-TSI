@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    padding: 2rem;
+    background-color: #555353;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1{
+    color: #00fb08;
+    font-size: 1.2rem;
+}
+
+h3{
+    color: #ff6ee9;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #555353;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #F4F0EA;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+dt{
+    color: #b0b0b0;
+    font-size: 1rem;
+}
+
+strong{
+    color: #ffcc00;
+    font-size: 1rem;
+}
+
+.NOTHTML {
+    color: #ffcc00;
+}
+
+.Refs {
+    text-align: center;
+    padding: 2rem;
+}
+
+.links {
+    padding: 2rem;
+    margin-left: 32rem ;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
